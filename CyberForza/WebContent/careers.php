@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<!--
+	Aesthetic by gettemplates.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://gettemplates.co
+-->
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Careers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description"
+	content="Free HTML5 Website Template by gettemplates.co" />
+<meta name="keywords"
+	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+<meta name="author" content="gettemplates.co" />
+
+<!-- Facebook and Twitter integration -->
+<meta property="og:title" content="" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:url" content="" />
+<meta name="twitter:card" content="" />
+
+<!-- <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> -->
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- Icomoon Icon Fonts-->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Themify Icons-->
+<link rel="stylesheet" href="css/themify-icons.css">
+<!-- Bootstrap  -->
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<!-- Owl Carousel  -->
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<!-- Theme style  -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+		<nav class="gtco-nav" role="navigation">
+			<div class="gtco-container">
+
+				<div class="row">
+					<div class="col-sm-4 col-xs-12">
+						<a href="index.html"><img src="images/logo.png"></a>
+						<!-- <div id="gtco-logo">
+							 style="padding: 0px">CYBER INTELLIGENT
+								SECURITY SOFTWARE - CISS <em>.</em>
+							</a>
+						</div> -->
+					</div>
+					<div class="col-xs-8 text-right menu-1 mynav-changes">
+						<ul>
+							<li class="active has-dropdown"><a href="about.html">Company</a>
+								<ul class="dropdown">
+									<li><a href="about.html">Team</a></li>
+									<li><a href="board-members.html">Board Members</a></li>
+									<li><a href="contact.php">Contact Us</a></li>
+									<li class="active"><a href="careers.php">Careers</a></li>
+								</ul></li>
+							<li class="has-dropdown"><a href="products.html">Products</a>
+								<ul class="dropdown">
+									<li><a href="products-cissdefender.html">CISS DEFENDER</a></li>
+									<li><a href="products-cissinterceptor.html">CISS
+											INTERCEPTOR</a></li>
+									<li><a href="products-cissforza.html">CISS FORZA</a></li>
+								</ul></li>
+							<li class="has-dropdown"><a href="services.html">Solutions</a>
+								<ul class="dropdown">
+									<li><a href="services-banking.html">Finance</a></li>
+									<li><a href="services-healthcare.html">Healthcare</a></li>
+									<li><a href="services-publicsafety.html">Public Safety</a></li>
+									<li><a href="services-retail.html">Retail</a></li>
+									<li><a href="services-educational.html">Education</a></li>
+								</ul></li>
+							<li class="has-dropdown"><a href="support.html">Services</a>
+								<ul class="dropdown">
+									<li><a href="training.html">Training</a></li>
+									<li><a href="threat-assessment.php">Threat Assessment</a></li>
+								</ul></li>
+							<li class="has-dropdown"><a href="resources.html">Resources</a>
+								<ul class="dropdown">
+									<li><a href="videos.html">Videos</a></li>
+									<li><a href="#">White papers</a></li>
+									<li><a href="#">Data Sheets</a></li>
+									<li><a href="#">Architecture</a></li>
+									<li><a href="#">Forza OS</a></li>
+									<li><a href="#">Cloud Challenges</a></li>
+								</ul></li>
+							<li><a href="partners.html">Partners</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</nav>
+
+		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
+			role="banner"
+			style="background-image: url(images/careers.jpg); max-width: 100%">
+			<div class="gtco-container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc">
+								<div class="sidebar_sticky">
+									<div class="right-corder-container">
+										<button class="right-corder-container-button">
+											<span class="short-text"><img src="images/demo.png" width="48px" height="48px"></span> <span class="long-text"><a href="FreeTrial.php"
+												style="color: white;">Demo</a></span>
+										</button>
+									</div>
+									<div class="right-corder-container2">
+										<button class="right-corder-container-button2">
+											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="contact.php"
+												style="color: white; ">Contact Us</a></span>
+										</button>
+									</div>
+									<div class="right-corder-container3">
+										<button class="right-corder-container-button3">
+											<span class="short-text3"><img src="images/threat.png" width="48px" height="48px"> </span> <span class="long-text3"><a
+												href="threat-assessment.php" style="color: white;">Threat
+													Assessment</a></span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="gtco-section">
+			<div class="gtco-container">
+				<div class="row row-pb-md">
+					<div class="col-md-6 animate-box">
+						<h3>Come Join Our Team</h3>
+						<form method="post" action="careerform-to-email.php">
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="name">Full Name</label>
+									<p style="color: red;">* All fields are mandatory</p>
+									<input type="text" id="name" name="name" class="form-control"
+										placeholder="Your Full Name" required>
+								</div>
+
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="email">Email</label> <input
+										type="text" id="email" name="email" class="form-control"
+										placeholder="Your Email address" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="phone">Phone</label> <input
+										type="text" id="phone" name="phone" class="form-control"
+										placeholder="Your Phone Number" required>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label>For position:</label> <select name="position_name"
+										required>
+										<option disabled selected value>-- select an option
+											--</option>
+										<option value="Cloud Architect">Cloud Architect</option>
+										<option value="Cyber Security Architect">Cyber
+											Security Architect</option>
+									</select>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label>Resume Upload:</label><input type="file"
+										name="file_name" id="file_name" />
+
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="message">Paste your Resume
+										here</label>
+									<p style="color: red;">* Pleae paste your complete resume in text format</p>
+									<textarea name="message" name="message" id="message" cols="30"
+										rows="10" class="form-control"
+										placeholder="Paste your Resume here"></textarea>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<input type="submit" value="Submit"
+									class="btn btn-primary btn-lg">
+							</div>
+
+						</form>
+					</div>
+					<div class="col-md-5 col-md-push-1 animate-box">
+
+						<div class="gtco-contact-info">
+							<h3>Why CyberForza?</h3>
+							<p>Welcome to CyberForza Careers, your source for outstanding
+								wireless and embedded jobs and high tech employment
+								opportunities.</p>
+							<p>At CyberForza, performance is paramount. We have ample
+								measurement systems and incentive schemes to recognize and
+								encourage performance. In this way, extra effort that you put
+								towards customer satisfaction will quickly be recognized.
+								Rewards, promotions and growth opportunities are based on
+								performance .We do not differentiate our people with any
+								criteria other than performance. Everyone in CyberForza – from
+								new recruit to the CEO – is treated the same.</p>
+							<p>All employees receive the same workspace, amount of
+								employee leave time, benefits and travel allowances. Everyone
+								has the same dress code and the same entitlements. Criteria that
+								determine incentives are uniformly applied.</p>
+							<p>To continue to be the best at inventing the world of
+								tomorrow, we need you and your ideas. Watch your aspirations
+								materialize in a company where opportunities abound for building
+								an amazing future. Be a part of the world's wireless innovations
+								and join CyberForza.</p>
+							<p>Send your resumes to info@cyberforza.com</p>
+							<hr>
+							<h3>Available Jobs</h3>
+							<h4>
+								<a href="careers-cybersecurityarchitect.html">Cyber Security
+									Architect</a>
+							</h4>
+							<h4>
+								<a href="careers-cloudarchitect.html">Cloud Architect</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div id="footer"></div>
+	</div>
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+		});
+	</script>
+</body>
+</html>
+
