@@ -9,7 +9,7 @@
 <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Solutions & Services</title>
+<title>CyberForza - CISS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
 	content="Free HTML5 Website Template by gettemplates.co" />
@@ -75,56 +75,59 @@
 					</div>
 					<div class="col-xs-8 text-right menu-1 mynav-changes">
 						<ul>
-							<li class="has-dropdown"><a href="about.html">Company</a>
+							<li class="has-dropdown"><a href="About.html">Company</a>
 								<ul class="dropdown">
-									<li><a href="about.html">Team</a></li>
-									<li><a href="board-members.html">Board Members</a></li>
-									<li><a href="contact.php">Contact Us</a></li>
-									<li><a href="careers.php">Careers</a></li>
+									<li><a href="Team.html">Team</a></li>
+									<li><a href="Board-members.html">Board Members</a></li>
+									<li><a href="Contact.php">Contact Us</a></li>
+									<li><a href="Careers.php">Careers</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="products.html">Products</a>
+							<li class="has-dropdown"><a href="Products.html">Products</a>
 								<ul class="dropdown">
-									<li><a href="products-cissdefender.html">CISS DEFENDER</a></li>
-									<li><a href="products-cissinterceptor.html">CISS
+									<li><a href="CissDefender.html">CISS DEFENDER</a></li>
+									<li><a href="CissInterceptor.html">CISS
 											INTERCEPTOR</a></li>
-									<li><a href="products-cissforza.html">CISS FORZA</a></li>
+									<li><a href="CissForza.html">CISS FORZA</a></li>
 								</ul></li>
-							<li class="active has-dropdown"><a href="services.html">Solutions</a>
+							<li class="has-dropdown"><a href="Solutions.html">Solutions</a>
 								<ul class="dropdown">
-									<li><a href="services-banking.html">Finance</a></li>
-									<li><a href="services-healthcare.html">Healthcare</a></li>
-									<li><a href="services-publicsafety.html">Public Safety</a></li>
-									<li><a href="services-retail.html">Retail</a></li>
-									<li><a href="services-educational.html">Education</a></li>
+									<li><a href="Finance.html">Finance</a></li>
+									<li><a href="Healthcare.html">Healthcare</a></li>
+									<li><a href="PublicSafety.html">Public Safety</a></li>
+									<li><a href="Retail.html">Retail</a></li>
+									<li><a href="Education.html">Education</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="support.html">Services</a>
+							<li class="active has-dropdown"><a href="Services.html">Services</a>
 								<ul class="dropdown">
-									<li><a href="training.html">Training</a></li>
-									<li><a href="threat-assessment.php">Threat Assessment</a></li>
+									<li><a href="Training.html">Training</a></li>
+									<li><a href="Threat-assessment.php">Threat Assessment</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="resources.html">Resources</a>
+							<li class="has-dropdown"><a href="Resources.html">Resources</a>
 								<ul class="dropdown">
-									<li><a href="videos.html">Videos</a></li>
-									<li><a href="#">White papers</a></li>
+									<li><a href="Webinar.php">Webinars</a></li>
+									<li><a href="Videos.html">Videos</a></li>
+									<li><a href="Whitepaper.php">White papers</a></li>
 									<li><a href="#">Data Sheets</a></li>
 									<li><a href="#">Architecture</a></li>
 									<li><a href="#">Forza OS</a></li>
 									<li><a href="#">Cloud Challenges</a></li>
 								</ul></li>
-							<li><a href="partners.html">Partners</a></li>
+							<li><a href="Partners.html">Partners</a></li>
 						</ul>
 					</div>
 				</div>
 
 			</div>
 		</nav>
-
-		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner"
-			style="background-image: url(images/solutions.png); height: 550px;">
+		<br>
+		<br>
+		<br>
+		<br>
+		<header id="gtco-header" class="gtco-cover" role="banner"
+			style="background-image: url(images/underconstruction.png);">
 			<div class="gtco-container">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="col-md-12 col-md-offset-0 text-left">
 						<div class="display-t">
 							<div class="display-tc">
 								<div class="sidebar_sticky">
@@ -139,7 +142,7 @@
 										<button class="right-corder-container-button2">
 											<span class="short-text2"><img
 												src="images/contactus_icon.jpeg" width="48px" height="48px">
-											</span> <span class="long-text2"><a href="contact.php"
+											</span> <span class="long-text2"><a href="Contact.php"
 												style="color: white;">Contact Us</a></span>
 										</button>
 									</div>
@@ -147,7 +150,7 @@
 										<button class="right-corder-container-button3">
 											<span class="short-text3"><img src="images/threat.png"
 												width="48px" height="48px"> </span> <span class="long-text3"><a
-												href="threat-assessment.php" style="color: white;">Threat
+												href="Threat-assessment.php" style="color: white;">Threat
 													Assessment</a></span>
 										</button>
 									</div>
@@ -158,94 +161,9 @@
 				</div>
 			</div>
 		</header>
-
-		<div class="gtco-section border-bottom ">
-			<h1 class="animate-box text-center" data-animate-effect="fadeInUp">Solutions</h1>
-			<div class="gtco-container">
-				<div class="row" align="center">
-					<div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services-banking.html"><span class="icon"> <i
-									class="ti-money"></i>
-							</span>
-								<h3>Finance</h3></a>
-							<p>
-								<i>The financial services industry is faced with a growing
-									number of ever-evolving cybersecurity ...</i>
-							</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services-healthcare.html"><span class="icon">
-									<i class="ti-support"></i>
-							</span>
-								<h3>Healthcare</h3> </a>
-							<p>
-								<i>As hospitals increasingly use digital technology to
-									gather, store and share patient information ...</i>
-							</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services-publicsafety.html"><span class="icon">
-									<i class="ti-shield"></i>
-							</span>
-								<h3>Public Safety</h3></a>
-							<p>
-								<i>Public safety communications systems are becoming more
-									integrated with advanced technologies ...</i>
-							</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services-retail.html"><span class="icon"> <i
-									class="ti-shopping-cart"></i>
-							</span>
-								<h3>Retail</h3></a>
-							<p>
-								<i>Hackers have retailers on the most wanted list. This
-									universal fear is not without reason. Retailers face ...</i>
-							</p>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services-educational.html"><span class="icon">
-									<i class="ti-clipboard"></i>
-							</span>
-								<h3>Education</h3></a>
-							<p>
-								<i>Student Internet use is nothing short of the Wild West.
-									Malicious software (malware), phishing, infrastructure ...</i>
-							</p>
-						</div>
-					</div>
-					<!-- <div class="col-md-3 col-sm-6">
-						<div class="feature-center animate-box"
-							data-animate-effect="fadeIn">
-							<a href="services.html"><span class="icon"> <i
-									class="ti-clipboard"></i>
-							</span>
-								<h3>Transportation</h3></a>
-							<p>
-								<i>Student Internet use is nothing short of the Wild West.
-									Malicious software (malware), phishing, infrastructure ...</i>
-							</p>
-						</div>
-					</div> -->
-				</div>
-
-			</div>
-		</div>
-
+		<p>
+		<p>
+		<p>
 		<div id="footer"></div>
 
 	</div>
@@ -277,7 +195,6 @@
 			$("#footer").load("footer.html");
 		});
 	</script>
-
 </body>
 </html>
 

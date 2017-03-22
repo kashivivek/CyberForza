@@ -9,7 +9,7 @@
 <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Contact Us</title>
+<title>Request a Free Trial</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
 	content="Free HTML5 Website Template by gettemplates.co" />
@@ -76,43 +76,44 @@
 					</div>
 					<div class="col-xs-8 text-right menu-1 mynav-changes">
 						<ul>
-							<li class="active has-dropdown"><a href="about.html">Company</a>
+							<li class="has-dropdown"><a href="About.html">Company</a>
 								<ul class="dropdown">
-									<li><a href="about.html">Team</a></li>
-									<li><a href="board-members.html">Board Members</a></li>
-									<li class="active"><a href="contact.php">Contact Us</a></li>
-									<li><a href="careers.php">Careers</a></li>
+									<li><a href="Team.html">Team</a></li>
+									<li><a href="Board-members.html">Board Members</a></li>
+									<li><a href="Contact.php">Contact Us</a></li>
+									<li><a href="Careers.php">Careers</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="products.html">Products</a>
+							<li class="has-dropdown"><a href="Products.html">Products</a>
 								<ul class="dropdown">
-									<li><a href="products-cissdefender.html">CISS DEFENDER</a></li>
-									<li><a href="products-cissinterceptor.html">CISS
+									<li><a href="CissDefender.html">CISS DEFENDER</a></li>
+									<li><a href="CissInterceptor.html">CISS
 											INTERCEPTOR</a></li>
-									<li><a href="products-cissforza.html">CISS FORZA</a></li>
+									<li><a href="CissForza.html">CISS FORZA</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="services.html">Solutions</a>
+							<li class="has-dropdown"><a href="Solutions.html">Solutions</a>
 								<ul class="dropdown">
-									<li><a href="services-banking.html">Finance</a></li>
-									<li><a href="services-healthcare.html">Healthcare</a></li>
-									<li><a href="services-publicsafety.html">Public Safety</a></li>
-									<li><a href="services-retail.html">Retail</a></li>
-									<li><a href="services-educational.html">Education</a></li>
+									<li><a href="Finance.html">Finance</a></li>
+									<li><a href="Healthcare.html">Healthcare</a></li>
+									<li><a href="PublicSafety.html">Public Safety</a></li>
+									<li><a href="Retail.html">Retail</a></li>
+									<li><a href="Education.html">Education</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="support.html">Services</a>
+							<li class="active has-dropdown"><a href="Services.html">Services</a>
 								<ul class="dropdown">
-									<li><a href="training.html">Training</a></li>
-									<li><a href="threat-assessment.php">Threat Assessment</a></li>
+									<li><a href="Training.html">Training</a></li>
+									<li class="active"><a href="Threat-assessment.php">Threat Assessment</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="resources.html">Resources</a>
+							<li class="has-dropdown"><a href="Resources.html">Resources</a>
 								<ul class="dropdown">
-									<li><a href="videos.html">Videos</a></li>
-									<li><a href="#">White papers</a></li>
+									<li><a href="Webinar.php">Webinars</a></li>
+									<li><a href="Videos.html">Videos</a></li>
+									<li><a href="Whitepaper.php">White papers</a></li>
 									<li><a href="#">Data Sheets</a></li>
 									<li><a href="#">Architecture</a></li>
 									<li><a href="#">Forza OS</a></li>
 									<li><a href="#">Cloud Challenges</a></li>
 								</ul></li>
-							<li><a href="partners.html">Partners</a></li>
+							<li><a href="Partners.html">Partners</a></li>
 						</ul>
 					</div>
 				</div>
@@ -121,7 +122,7 @@
 		</nav>
 
 		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner" style="background-image: url(images/contact.jpg);">
+			role="banner" style="background-image: url(images/threat.jpg);">
 			<div class="gtco-container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
@@ -136,14 +137,14 @@
 									</div>
 									<div class="right-corder-container2">
 										<button class="right-corder-container-button2">
-											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="contact.php"
+											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="Contact.php"
 												style="color: white; ">Contact Us</a></span>
 										</button>
 									</div>
 									<div class="right-corder-container3">
 										<button class="right-corder-container-button3">
 											<span class="short-text3"><img src="images/threat.png" width="48px" height="48px"> </span> <span class="long-text3"><a
-												href="threat-assessment.php" style="color: white;">Threat
+												href="Threat-assessment.php" style="color: white;">Threat
 													Assessment</a></span>
 										</button>
 									</div>
@@ -154,16 +155,15 @@
 				</div>
 			</div>
 		</header>
-
 		<div class="gtco-section">
 			<div class="gtco-container">
 				<div class="row row-pb-md">
-					<div class="col-md-6 animate-box">
-						<h3>Contact Us</h3>
-						<form method="post" action="contactform-to-email.php">
+					<div class="col-md-6 animate-box gtco-heading">
+						<h2 class="text-center">Threat Assessment</h2>
+						<form method="post" action="threatform-to-email.php">
 							<div class="row form-group">
 								<div class="col-md-12">
-									<label class="sr-only" for="name">Name</label> <p style="color: red;">* All fields are mandatory</p><input
+									<label class="sr-only" for="name">Full Name</label><p style="color: red;">* All fields are mandatory</p> <input
 										type="text" id="name" name="name" class="form-control"
 										placeholder="Your Full Name" required>
 								</div>
@@ -172,97 +172,81 @@
 
 							<div class="row form-group">
 								<div class="col-md-12">
+									<label class="sr-only" for="company">Company</label> <input
+										type="text" id="company" name="company" class="form-control"
+										placeholder="Your Company name" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
 									<label class="sr-only" for="email">Email</label> <input
 										type="text" id="email" name="email" class="form-control"
-										placeholder="Your Email Address" required>
+										placeholder="Your Email address" required>
 								</div>
 							</div>
 
 							<div class="row form-group">
 								<div class="col-md-12">
 									<label class="sr-only" for="phone">Phone</label> <input
-										type="text" id="subject" name="phone" class="form-control"
+										type="text" id="phone" name="phone" class="form-control"
 										placeholder="Your Phone Number" required>
+								</div>
+							</div>
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label>Choose your level of severity:</label> <select
+										name="level_security" required>
+										<option disabled selected value> -- select an option -- </option>
+										<option value="Severe" style="background-color: #f44842;">Severe</option>
+										<option value="Elevated" style="background-color: #f4ea29;">Elevated</option>
+										<option value="Low" style="background-color: #02e88c;">Low</option>
+									</select>
 								</div>
 							</div>
 
 							<div class="row form-group">
 								<div class="col-md-12">
-									<label class="sr-only" for="message">Message</label>
-									<textarea name="message" id="message" name="message" cols="30" rows="10"
-										class="form-control" placeholder="Write us something" required></textarea>
+									<label class="sr-only" for="message">Objectives and
+										Challenges</label>
+									<textarea name="message" name="message" id="message" cols="30"
+										rows="10" class="form-control"
+										placeholder="Objectives and Challenges" required></textarea>
 								</div>
 							</div>
+
 							<div class="form-group">
-								<input type="submit" value="Send Message"
+								<input type="submit" value="Submit"
 									class="btn btn-primary btn-lg">
 							</div>
 
 						</form>
 					</div>
 					<div class="col-md-5 col-md-push-1 animate-box">
-
+							If your organization needs immediate assistance for a possible incident or security breach please contact us by completing the form on the right or calling us at one of our incident response lines listed below. You can also email our incident response team at <a href="mailto:info@cyberforza.com">info@cyberforza.com</a>.
+<br><br>Once we receive your request, an expert will contact you to discuss your inquiry.<br><br>
 						<div class="gtco-contact-info">
 							<h3>Contact Information</h3>
 							<ul>
 								<li class="address">2378A Walsh Ave, <br> Santa Clara,
 									CA 95051
 								</li>
-								<li class="phone"><a href="tel://14087271560"> +1 408 727 1560</a></li>
+								<li class="phone"><a href="tel://14087271560"> +1 408
+										727 1560</a></li>
 								<li class="email"><a href="mailto:info@cyberforza.com">info@cyberforza.com</a></li>
 							</ul>
 						</div>
-
-
 					</div>
 				</div>
 			</div>
 
 		</div>
 	</div>
-
-	<!-- <div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the news and technology updates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-12">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label> <input
-									type="email" class="form-control" id="email"
-									placeholder="Your Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label> <input
-									type="text" class="form-control" id="name"
-									placeholder="Your Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
 	<div id="footer"></div>
-
 	</div>
-
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
