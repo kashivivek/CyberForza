@@ -55,7 +55,19 @@
 <!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+<style type="text/css">
+.carousel {
+}
 
+.carousel .item img {
+	margin: 0 auto; /* Align slide image horizontally center */
+	width: 100%;
+}
+
+.bs-example {
+	margin: 20px;
+}
+</style>
 </head>
 <body>
 
@@ -118,55 +130,71 @@
 
 			</div>
 		</nav>
-
-		<header id="gtco-header" class="gtco-cover" role="banner"
-			style="background-image: url(images/img_bg_3.jpg); width: 100%;">
-			<div class="overlay" style="height: 615px"></div>
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0 text-left">
-						<div class="display-t">
-							<div class="display-tc">
-								<h1 class="animate-box text-glow2 text-glow"
-									data-animate-effect="fadeInUp" style="color: white">Cyber
-									Forza</h1>
-								<h2 class="animate-box text-glow2"
-									data-animate-effect="fadeInUp" style="color: white">Cyber
-									Intelligent Security Software - CISS</h2>
-								<div class="sidebar_sticky">
-									<div class="right-corder-container">
-										<button class="right-corder-container-button">
-											<span class="short-text"><img src="images/demo.png"
-												width="48px" height="48px"></span> <span class="long-text"><a
-												href="FreeTrial.php" style="color: white;">Demo</a></span>
-										</button>
-									</div>
-									<div class="right-corder-container2">
-										<button class="right-corder-container-button2">
-											<span class="short-text2"><img
-												src="images/contactus_icon.jpeg" width="48px" height="48px">
-											</span> <span class="long-text2"><a href="Contact.php"
-												style="color: white;">Contact Us</a></span>
-										</button>
-									</div>
-									<div class="right-corder-container3">
-										<button class="right-corder-container-button3">
-											<span class="short-text3"><img src="images/threat.png"
-												width="48px" height="48px"> </span> <span class="long-text3"><a
-												href="Threat-assessment.php" style="color: white;">Threat
-													Assessment</a></span>
-										</button>
-									</div>
-								</div>
-							</div>
+		<header id="gtco-header">
+			<div class="display-t">
+				<div class="display-tc">
+					<div class="sidebar_sticky">
+						<div class="right-corder-container">
+							<button class="right-corder-container-button">
+								<span class="short-text"><img src="images/demo.png"
+									width="48px" height="48px"></span> <span class="long-text"><a
+									href="FreeTrial.php" style="color: white;">Demo</a></span>
+							</button>
+						</div>
+						<div class="right-corder-container2">
+							<button class="right-corder-container-button2">
+								<span class="short-text2"><img
+									src="images/contactus_icon.jpeg" width="48px" height="48px">
+								</span> <span class="long-text2"><a href="Contact.php"
+									style="color: white;">Contact Us</a></span>
+							</button>
+						</div>
+						<div class="right-corder-container3">
+							<button class="right-corder-container-button3">
+								<span class="short-text3"><img src="images/threat.png"
+									width="48px" height="48px"> </span> <span class="long-text3"><a
+									href="Threat-assessment.php" style="color: white;">Threat
+										Assessment</a></span>
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
-		<p>
-		<p>
-		<p>
+		<div id="gtco-history" class="gtco-section animate-box">
+			<div id="gtco-team" class="gtco-section">
+				<div class="bs-example">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Carousel indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for carousel items -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="images/img_bg_3.jpg" width="600px" alt="First Slide">
+							</div>
+							<div class="item">
+								<a href="Webinar.php"><img src="images/slide2.jpg" alt="Second Slide"></a>
+							</div>
+							<div class="item">
+								<img src="images/slide3.jpg" alt="Third Slide">
+							</div>
+						</div>
+						<!-- Carousel controls -->
+						<a class="carousel-control left" href="#myCarousel"
+							data-slide="prev"> <span
+							class="glyphicon glyphicon-chevron-left"></span>
+						</a> <a class="carousel-control right" href="#myCarousel"
+							data-slide="next"> <span
+							class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div id="gtco-features-3">
 			<div class="gtco-container">
 				<div class="gtco-flex">
@@ -221,7 +249,6 @@
 				</div>
 			</div>
 		</div>
-		<hr>
 		<div id="gtco-products" style="padding: 30px;">
 			<div class="gtco-container">
 				<!-- <div class="row animate-box">
@@ -232,8 +259,8 @@
 				</div> -->
 				<div class="row animate-box">
 					<div class="owl-carousel owl-carousel-carousel">
-						<div class="item">
-							<img src="images/img_1.jpg"
+						<div class="item active">
+							<img src="images/img_1.jpg" 
 								alt="Free HTML5 Bootstrap Template by GetTemplates.co">
 						</div>
 						<div class="item">
@@ -252,51 +279,11 @@
 				</div>
 			</div>
 		</div>
-
-
-
-		<!-- <div id="gtco-subscribe">
-			<div class="gtco-container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-						<h2>Subscribe</h2>
-						<p>Be the first to know about the news and technology updates.</p>
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-12">
-						<form class="form-inline">
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="email" class="sr-only">Email</label> <input
-										type="email" class="form-control" id="email"
-										placeholder="Your Email">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="name" class="sr-only">Name</label> <input
-										type="text" class="form-control" id="name"
-										placeholder="Your Name">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
 		<div id="footer"></div>
-
 	</div>
-
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -316,7 +303,6 @@
 	<script src="js/main.js"></script>
 	<script>
 		$(function() {
-			$("#header").load("header.html");
 			$("#footer").load("footer.html");
 		});
 	</script>

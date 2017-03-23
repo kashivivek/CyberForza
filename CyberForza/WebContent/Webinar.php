@@ -120,48 +120,12 @@
 
 			</div>
 		</nav>
-
-		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner" style="background-image: url(images/webinar.png);">
-						<div class="overlay"></div>
-						<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t">
-							<div class="display-tc">
-							<span style="color: white; font-weight: bold;"><h1>Cyber Forza Webinars</h1></span><p><span
-									style="color: white; font-weight: bold;"><h2>The Intelligent Defense Against Cyber Attacks<p>12:00 PST. April 4, 2017</p></h2></span>
-									
-									<div class="sidebar_sticky">
-									<div class="right-corder-container">
-										<button class="right-corder-container-button">
-											<span class="short-text"><img src="images/demo.png" width="48px" height="48px"></span> <span class="long-text"><a href="FreeTrial.php"
-												style="color: white;">Demo</a></span>
-										</button>
-									</div>
-									<div class="right-corder-container2">
-										<button class="right-corder-container-button2">
-											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="Contact.php"
-												style="color: white; ">Contact Us</a></span>
-										</button>
-									</div>
-									<div class="right-corder-container3">
-										<button class="right-corder-container-button3">
-											<span class="short-text3"><img src="images/threat.png" width="48px" height="48px"> </span> <span class="long-text3"><a
-												href="Threat-assessment.php" style="color: white;">Threat
-													Assessment</a></span>
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		
 				<div id="gtco-team" class="gtco-section">
 					<div class="gtco-container">
+					<p align="center" style="margin-top: 50px;">
+					<img alt="Service_Banking" src="images/webinar.jpg"
+							style="max-width: 100%; height: auto;"></p>
+							<p>
 					<h3 class="text-center" style="color: blue"><i>"Lockheed Martin uses Cyber Forza to protect its infrastructure." <span class="text-center" style="color: red;"><br>-Head of Security ISDG, Angie Heise</span></i></h3>
 						<ul>
 						<li>Experience artificial intelligence utilized in preventing cyber attacks</li>

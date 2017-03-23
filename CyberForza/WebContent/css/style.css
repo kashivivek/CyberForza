@@ -277,6 +277,13 @@ body {
 /* end of floating right */
 
 /*  */
+
+.sidebar_sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:99;
+}
 .floating-image {
 	width: 48px;
 	height: 48px;
@@ -735,7 +742,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
 	.gtco-cover.gtco-cover-sm .display-t, .gtco-cover.gtco-cover-sm .display-tc
 		{
-		height: 400px;
+	height: 400px;
 	}
 }
 
