@@ -870,7 +870,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .gtco-contact-info ul li.address:before {
 	font-size: 30px;
-	content: "\e94e";
+	content: "\e9d1";
 }
 
 .gtco-contact-info ul li.phone:before {
@@ -1944,12 +1944,13 @@ form label {
 
 #gtco-features-3 {
 	position: relative;
-	top: -7em;
+	padding-top: 10px;
+	/* top: -7em; */
 }
 
 @media screen and (max-width: 768px) {
 	#gtco-features-3 {
-		top: -2em;
+		/* top: -2em; */
 	}
 }
 
@@ -1988,7 +1989,7 @@ form label {
 	height: 90px;
 	margin: 0 auto 10px auto;
 	position: relative;
-	background: #3b5998;
+	background: #3B5ABD;
 	top: -3em;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -2031,11 +2032,11 @@ form label {
 }
 
 #gtco-features-3 .feature.feature-2 .icon {
-	background: #3b5998;
+	background: #3B5ABD;
 }
 
 #gtco-features-3 .feature.feature-2 .feature-inner {
-	top: -3em;
+	/* top: -3em; */
 	position: relative;
 }
 
@@ -2047,7 +2048,7 @@ form label {
 
 #gtco-features-3 .feature.feature-2:before {
 	position: absolute;
-	top: -50px;
+	/* top: -50px; */
 	content: "";
 	background: #3b5998;
 	height: 50px;
@@ -2063,7 +2064,7 @@ form label {
 
 #gtco-features-3 .feature.feature-2:after {
 	position: absolute;
-	bottom: -30px;
+	/* bottom: -30px; */
 	content: "";
 	background: #3b5998;
 	height: 30px;
@@ -2086,7 +2087,7 @@ form label {
 }
 
 #gtco-features-3 .feature.feature-3 .icon {
-	background: #3b5998;
+	background: #3B5ABD;
 }
 
 .gtco-flex {

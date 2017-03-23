@@ -251,7 +251,7 @@
 							</div>
 							
 							<div class="form-group">
-								<input type="submit" value="Send Message"
+								<input type="submit" value="Register for Webinar"
 									class="btn btn-primary btn-lg">
 							</div>
 
