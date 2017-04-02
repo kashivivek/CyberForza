@@ -12,10 +12,10 @@
 <title>Contact Us</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
-	content="Free HTML5 Website Template by gettemplates.co" />
+	content="Cyber Forza - Cybersecurity Integrated Software Solution." />
 <meta name="keywords"
-	content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-<meta name="author" content="gettemplates.co" />
+	content="cyberforza, sai technology, cyber, security, cybersecurity, cyber security, cyber forza, threats" />
+<meta name="author" content="Vivek" />
 
 <!-- Facebook and Twitter integration -->
 <meta property="og:title" content="" />
@@ -98,9 +98,8 @@
 									<li><a href="Retail.html">Retail</a></li>
 									<li><a href="Education.html">Education</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="Services.html">Services</a>
+							<li class="has-dropdown"><a>Services</a>
 								<ul class="dropdown">
-									<li><a href="Training.html">Training</a></li>
 									<li><a href="Threat-assessment.php">Threat Assessment</a></li>
 								</ul></li>
 							<li class="has-dropdown"><a href="Resources.html">Resources</a>
