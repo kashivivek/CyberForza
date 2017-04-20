@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Aesthetic by gettemplates.co
@@ -203,15 +204,16 @@
 						<!-- Wrapper for carousel items -->
 						<div class="carousel-inner">
 							<div class="item active">
-								<img src="images/slide1.jpg" alt="First Slide">
-								<a class="videobutton popup-youtube" href="files/CyberForza.mp4"><b>Cyber
+								<img src="images/slide1.jpg" alt="First Slide"> <a
+									class="videobutton popup-youtube" href="files/CyberForza.mp4"><b>Cyber
 										Forza Overview</b></a> <a class="videobutton2 popup-youtube"
 									href="files/CyberForza_Demo.mp4"><b>For Live Demo,
 										Click Here </b></a>
 							</div>
 							<div class="item">
-								<img src="images/slide3.jpg"
-									height="550px" alt="Second Slide"><a class="videobutton" href="Webinar.php"><b>Click Here to Know Upcoming Webinars</b></a>
+								<img src="images/slide3.jpg" height="550px" alt="Second Slide"><a
+									class="videobutton" href="Webinar.php"><b>Click Here to
+										Know Upcoming Webinars</b></a>
 							</div>
 						</div>
 						<!-- Carousel controls -->
@@ -282,33 +284,59 @@
 		</div>
 		<div id="gtco-products" style="padding: 30px;">
 			<div class="gtco-container">
-				<!-- <div class="row animate-box">
-					<div
-						class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-						<h2>Products</h2>
-					</div>
-				</div> -->
 				<div class="row animate-box">
-					<div class="owl-carousel owl-carousel-carousel">
+					<div class="owl-carousel owl-carousel-carousel popup-gallery">
 						<div class="item active">
-							<img src="images/img_1.jpg"
-								alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<a
+					href="images/Dashboard_1.png"
+					title="Dashboard"><img
+					src="images/Dashboard_1.png"
+					width="200" height="200"></a>
 						</div>
 						<div class="item">
-							<img src="images/img_2.jpg"
-								alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<a
+					href="images/Dashboard_2.png"
+					title="Dashboard"><img
+					src="images/Dashboard_2.png"
+					width="200" height="200"></a>
 						</div>
 						<div class="item">
-							<img src="images/img_3.jpg"
-								alt="Free HTML5 Bootstrap Template by GetTemplates.co">
-						</div>
-						<div class="item">
-							<img src="images/img_4.jpg"
-								alt="Free HTML5 Bootstrap Template by GetTemplates.co">
+							<a
+					href="images/Protection_Features.png"
+					title="Protection and Features"><img
+					src="images/Protection_Features.png"
+					width="200" height="200"></a>
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- <div class="popup-gallery">
+				<a
+					href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"
+					title="The Cleaner"><img
+					src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg"
+					width="200" height="200"></a> <a
+					href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"
+					title="Winter Dance"><img
+					src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg"
+					width="200" height="200"></a> <a
+					href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"
+					title="The Uninvited Guest"><img
+					src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg"
+					width="200" height="200"></a> <a
+					href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"
+					title="Oh no, not again!"><img
+					src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg"
+					width="200" height="200"></a> <a
+					href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"
+					title="Swan Lake"><img
+					src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"
+					width="200" height="200"></a> <a
+					href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg"
+					title="The Shake"><img
+					src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg"
+					width="200" height="200"></a>
+			</div> -->
 		</div>
 		<div id="footer"></div>
 	</div>
@@ -343,6 +371,33 @@
 				$('.colmodal-backdrop fade inumn').remove();
 			});
 		});
+	</script>
+	<script type="text/javascript">
+		$(document)
+				.ready(
+						function() {
+							$('.popup-gallery')
+									.magnificPopup(
+											{
+												delegate : 'a',
+												type : 'image',
+												tLoading : 'Loading image #%curr%...',
+												mainClass : 'mfp-img-mobile',
+												gallery : {
+													enabled : true,
+													navigateByImgClick : true,
+													preload : [ 0, 1 ]
+												// Will preload 0 - before current, and 1 after the current image
+												},
+												image : {
+													tError : '<a href="%url%">The image #%curr%</a> could not be loaded.',
+													titleSrc : function(item) {
+														return item.el
+																.attr('title');
+													}
+												}
+											});
+						});
 	</script>
 </body>
 </html>

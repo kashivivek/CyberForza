@@ -121,9 +121,14 @@
 		</nav>
 				<div id="gtco-team" class="gtco-section">
 					<div class="gtco-container">
-					<p align="center" style="margin-top: 50px;">
+					<div class="row animate-box">
+							<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+								<h2>Webinars</h2>
+							</div>
+						</div>
+					<!-- <p align="center" >
 					<img alt="Service_Banking" src="images/webinar.jpg"
-							style="max-width: 100%; height: auto;"></p>
+							style="max-width: 100%; height: auto;"></p> -->
 							<p>
 					<h3 class="text-center" style="color: blue"><i>"Lockheed Martin uses Cyber Forza to protect its infrastructure." <span class="text-center" style="color: red;"><br>-Head of Security ISDG, Angie Heise</span></i></h3>
 						<ul>
@@ -140,7 +145,7 @@
 			<div class="gtco-container">
 				<div class="row row-pb-md">
 					<div class="col-md-6 animate-box">
-						<h3>Register for the Webinars here</h3>
+						<h3>Request for a Webinar here</h3>
 						<form method="post" action="webinarform-to-email.php">
 							<div class="row form-group">
 								<div class="col-md-12">
@@ -220,7 +225,7 @@
 
 						</form>
 					</div>
-					<div class="col-md-5 col-md-push-1 animate-box">
+					<!-- <div class="col-md-5 col-md-push-1 animate-box">
 
 						<div class="gtco-contact-info">
 							<h3>Upcoming Webinars</h3>
@@ -228,7 +233,7 @@
 								<li class="address">Cyber Forza Webinar: The Intelligent Defense Against Cyber Attacks<br>12:00 PST. April 4, 2017</li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 

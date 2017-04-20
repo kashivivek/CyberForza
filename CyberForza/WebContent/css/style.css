@@ -277,13 +277,13 @@ body {
 /* end of floating right */
 
 /*  */
-
 .sidebar_sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index:99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
 }
+
 .floating-image {
 	width: 48px;
 	height: 48px;
@@ -303,9 +303,10 @@ body {
 	font-family: Arial;
 }
 
-.text-glow2{
+.text-glow2 {
 	text-shadow: #fff 0 0 10px;
 }
+
 .text-glow:hover {
 	text-shadow: 1px 0px 20px #ffd200;
 	-webkit-transition: 1s linear 0s;
@@ -742,7 +743,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
 	.gtco-cover.gtco-cover-sm .display-t, .gtco-cover.gtco-cover-sm .display-tc
 		{
-	height: 400px;
+		height: 400px;
 	}
 }
 
@@ -1958,6 +1959,7 @@ form label {
 @media screen and (max-width: 768px) {
 	#gtco-features-3 {
 		/* top: -2em; */
+		
 	}
 }
 
@@ -2437,4 +2439,9 @@ form label {
 	border: 2px solid #17B794;
 }
 
+.btn-rightcorner {
+	position: absolute;
+	right: 5%;
+	bottom: 25%;
+}
 /*# sourceMappingURL=style.css.map */
