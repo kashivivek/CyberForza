@@ -105,7 +105,8 @@
 								<ul class="dropdown">
 									<li><a href="Webinar.php">Webinars</a></li>
 									<li><a href="Videos.html">Videos</a></li>
-									<li><a href="Whitepaper.php">White papers</a></li>
+									<li class="active"><a href="Whitepaper.php">White papers</a></li>
+									<li><a href="Brochure.php">Brochure</a></li>
 								</ul></li>
 							<li><a href="Partners.html">Partners</a></li>
 						</ul>
@@ -116,12 +117,12 @@
 		</nav>
 
 		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner" style="background-image: url(images/resources.jpg);">
+			role="banner" style="background-image: url(images/resources-whitebanner.jpg); height:500px;">
 			<div class="gtco-container">
-				<div class="row">
+				<div class="row" style="height: 500px;">
 					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t">
-							<div class="display-tc">
+						<div class="display-t" style="height: 500px;">
+							<div class="display-tc" style="height: 500px;">
 								<div class="sidebar_sticky">
 									<div class="right-corder-container">
 										<button class="right-corder-container-button">
@@ -157,92 +158,89 @@
 		<div class="gtco-section border-bottom">
 			<div class="gtco-container">
 				<div class="row">
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<a href="Webinar.php"><span class="icon"> <i
-									class="ti-desktop"></i>
-							</span>
-								<div class="feature-copy">
-									<h3>Webinar</h3>
-									<p>Find upcoming webinars and register for them here.</p>
-								</div></a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<a href="Videos.html"><span class="icon"> <i
-									class="ti-video-camera"></i>
-							</span>
-								<div class="feature-copy">
-									<h3>Videos</h3>
-									<p>Collection of videos regarding Cyber Security and
-										related issues.</p>
-								</div></a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<span class="icon"> <i class="ti-notepad"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>White papers</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-									mollitia reprehenderit.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<span class="icon"> <i class="ti-agenda"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Data Sheets</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-									mollitia reprehenderit.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<span class="icon"> <i class="ti-ruler-alt-2"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Architecture</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-									mollitia reprehenderit.</p>
-							</div>
-						</div>
-					</div>
+				<div class="row row-pb-md">
+					<div class="col-md-6 animate-box">
+						<h3>Request for a White paper here</h3>
+						<form method="post" action="whitepaperform-to-email.php">
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="name">Name</label> <p style="color: red;">* All fields are mandatory</p><input
+										type="text" id="name" name="name" class="form-control"
+										placeholder="Full Name" required>
+								</div>
 
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<span class="icon"> <i class="ti-linux"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Forza OS</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-									mollitia reprehenderit.</p>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="feature-left animate-box"
-							data-animate-effect="fadeInLeft">
-							<span class="icon"> <i class="ti-soundcloud"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Cloud Challenges</h3>
-								<p>Facilis ipsum reprehenderit nemo molestias. Aut cum
-									mollitia reprehenderit.</p>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="email">Email</label> <input
+										type="text" id="email" name="email" class="form-control"
+										placeholder="Work Email Address" required>
+								</div>
 							</div>
-						</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="phone">Phone</label> <input
+										type="text" id="subject" name="phone" class="form-control"
+										placeholder="Phone Number" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="title">Title</label> <input
+										type="text" id="subject" name="title" class="form-control"
+										placeholder="Job Title" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label>Choose your level :</label> <select
+										name="level_job" required>
+										<option disabled selected value> -- select an option -- </option>
+										<option value="Entry Level">Entry Level</option>
+										<option value="Senior">Senior</option>
+										<option value="VPsVCs">VPs / VCs</option>
+										<option value="C Level">C Level</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="company">Company</label> <input
+										type="text" id="subject" name="company" class="form-control"
+										placeholder="Company Name" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="message">Message</label>
+									<textarea name="message" id="message" name="message" cols="30" rows="10"
+										class="form-control" placeholder="Message" required></textarea>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<input type="submit" value="Request for White paper"
+									class="btn btn-primary btn-lg">
+							</div>
+
+						</form>
 					</div>
+					<!-- <div class="col-md-5 col-md-push-1 animate-box">
+
+						<div class="gtco-contact-info">
+							<h3>Upcoming Webinars</h3>
+							<ul>
+								<li class="address">Cyber Forza Webinar: The Intelligent Defense Against Cyber Attacks<br>12:00 PST. April 4, 2017</li>
+							</ul>
+						</div>
+					</div> -->
+				</div>
 				</div>
 			</div>
 		</div>

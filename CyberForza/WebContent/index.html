@@ -49,6 +49,8 @@
 
 <!-- Theme style  -->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.css">
 
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
@@ -149,6 +151,7 @@
 									<li><a href="Webinar.php">Webinars</a></li>
 									<li><a href="Videos.html">Videos</a></li>
 									<li><a href="Whitepaper.php">White papers</a></li>
+									<li><a href="Brochure.php">Brochure</a></li>
 								</ul></li>
 							<li><a href="Partners.html">Partners</a></li>
 						</ul>
@@ -224,7 +227,20 @@
 				</div>
 			</div>
 		</div>
-		<div id="gtco-features-3">
+		<span style="font-size: 20px;"><b><i>
+					<center>
+						<span style="color: #023a5a;">CYBER</span> <span
+							style="color: #e80020;">FORZA</span> Product has been approved
+						and deployed in the following countries:<br> <img
+							src="images/usa.png">USA <img src="images/uk.png">UK
+						<img src="images/philippines.png">Philippines <img
+							src="images/malaysia.png">Malaysia <img
+							src="images/dubai.png">Dubai <img src="images/India.png">India.
+							<br><br>
+							Cyber Forza Inc is a subsidiary company of SAI Technology Inc
+					</center>
+			</i></b> </span>
+		<div id="gtco-features-3" style="padding-top: 50px;">
 			<div class="gtco-container">
 				<div class="gtco-flex">
 					<div class="feature feature-1 animate-box"
@@ -279,8 +295,8 @@
 			</div>
 		</div>
 
-		<div id="gtco-products" style="padding: 30px;">
-			<div class="gtco-container">
+		<div id="gtco-products" style="padding: 20px;">
+			<div class="gtco-container" style="padding: 30px;">
 				<div class="row animate-box">
 					<div class="col-md-12" style="padding-left: 2px;">
 						<p class="pull-left popup-gallery" style="padding-right: 10px;">
@@ -328,50 +344,9 @@
 							</span>
 						</p>
 					</div>
-					<!-- <div class="owl-carousel owl-carousel-carousel popup-gallery">
-						<div class="item active">
-							<a href="images/Dashboard_1.png" title="CyberForza Dashboard"><img
-								src="images/Dashboard_1.png" width="200" height="200"></a>
-						</div>
-						<div class="item">
-							<a href="images/Dashboard_2.png" title="CyberForza Dashboard"><img
-								src="images/Dashboard_2.png" width="200" height="200"></a>
-						</div>
-						<div class="item">
-							<a href="images/Protection_Features.png"
-								title="Protection and Features"><img
-								src="images/Protection_Features.png" width="200" height="200"></a>
-						</div>
-					</div> -->
 				</div>
+
 			</div>
-			<!-- <div class="popup-gallery">
-				<a
-					href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"
-					title="The Cleaner"><img
-					src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg"
-					width="200" height="200"></a> <a
-					href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"
-					title="Winter Dance"><img
-					src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg"
-					width="200" height="200"></a> <a
-					href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"
-					title="The Uninvited Guest"><img
-					src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg"
-					width="200" height="200"></a> <a
-					href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"
-					title="Oh no, not again!"><img
-					src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg"
-					width="200" height="200"></a> <a
-					href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"
-					title="Swan Lake"><img
-					src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"
-					width="200" height="200"></a> <a
-					href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg"
-					title="The Shake"><img
-					src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg"
-					width="200" height="200"></a>
-			</div> -->
 		</div>
 		<div id="footer"></div>
 	</div>
@@ -425,7 +400,7 @@
 												// Will preload 0 - before current, and 1 after the current image
 												},
 												image : {
-													tError : '<a href="%url%">The image #%curr%</a> could not be loaded.',
+													tError : '<a href="%url%">The image #%curr%_$ta could not be loaded.',
 													titleSrc : function(item) {
 														return item.el
 																.attr('title');

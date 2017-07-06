@@ -107,6 +107,7 @@
 									<li class="active"><a href="Webinar.php">Webinars</a></li>
 									<li><a href="Videos.html">Videos</a></li>
 									<li><a href="Whitepaper.php">White papers</a></li>
+									<li><a href="Brochure.php">Brochure</a></li>
 								</ul></li>
 							<li><a href="Partners.html">Partners</a></li>
 						</ul>

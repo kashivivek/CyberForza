@@ -6,11 +6,16 @@
 -->
 <html>
 <head>
-<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Products-CISS Defender</title>
+<title>Resources</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description"
+	content="Cyber Forza - Cybersecurity Integrated Software Solution." />
+<meta name="keywords"
+	content="cyberforza, sai technology, cyber, security, cybersecurity, cyber security, cyber forza, threats" />
+<meta name="author" content="Vivek" />
 
 <!-- Facebook and Twitter integration -->
 <meta property="og:title" content="" />
@@ -59,6 +64,7 @@
 	<div id="page">
 		<nav class="gtco-nav" role="navigation">
 			<div class="gtco-container">
+
 				<div class="row">
 					<div class="col-sm-4 col-xs-12">
 						<a href="index.html"><img src="images/logo.png"></a>
@@ -70,7 +76,7 @@
 					</div>
 					<div class="col-xs-8 text-right menu-1 mynav-changes">
 						<ul>
-							<li class="active has-dropdown"><a href="About.html">Company</a>
+							<li class="has-dropdown"><a href="About.html">Company</a>
 								<ul class="dropdown">
 									<li><a href="Team.html">Team</a></li>
 									<li><a href="Board-members.html">Board Members</a></li>
@@ -80,8 +86,7 @@
 							<li class="has-dropdown"><a href="Products.html">Products</a>
 								<ul class="dropdown">
 									<li><a href="CissDefender.html">CISS DEFENDER</a></li>
-									<li><a href="CissInterceptor.html">CISS
-											INTERCEPTOR</a></li>
+									<li><a href="CissInterceptor.html">CISS INTERCEPTOR</a></li>
 									<li><a href="CissForza.html">CISS FORZA</a></li>
 								</ul></li>
 							<li class="has-dropdown"><a href="Solutions.html">Solutions</a>
@@ -92,16 +97,16 @@
 									<li><a href="Retail.html">Retail</a></li>
 									<li><a href="Education.html">Education</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a>Services</a>
+							<li class="has-dropdown"><a >Services</a>
 								<ul class="dropdown">
 									<li><a href="Threat-assessment.php">Threat Assessment</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="Resources.html">Resources</a>
+							<li class="active has-dropdown"><a href="Resources.html">Resources</a>
 								<ul class="dropdown">
 									<li><a href="Webinar.php">Webinars</a></li>
 									<li><a href="Videos.html">Videos</a></li>
 									<li><a href="Whitepaper.php">White papers</a></li>
-									<li><a href="Brochure.php">Brochure</a></li>
+									<li class="active"><a href="Brochure.php">Brochure</a></li>
 								</ul></li>
 							<li><a href="Partners.html">Partners</a></li>
 						</ul>
@@ -112,36 +117,37 @@
 		</nav>
 
 		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner" style="background-image: url(images/careers.jpg);">
+			role="banner" style="background-image: url(images/resources-whitebanner.jpg); height:500px;">
 			<div class="gtco-container">
-				<div class="row">
+				<div class="row" style="height: 500px;">
 					<div class="col-md-8 col-md-offset-2 text-center">
-						<div class="display-t">
-							<div class="display-tc">
-								<!-- <h1 class="animate-box" data-animate-effect="fadeInUp">CISS
-									DEFENDER</h1> -->
+						<div class="display-t" style="height: 500px;">
+							<div class="display-tc" style="height: 500px;">
 								<div class="sidebar_sticky">
 									<div class="right-corder-container">
 										<button class="right-corder-container-button">
-											<span class="short-text"><img src="images/demo.png" width="48px" height="48px"></span> <span class="long-text"><a href="FreeTrial.php"
-												style="color: white;">Demo</a></span>
+											<span class="short-text"><img src="images/demo.png"
+												width="48px" height="48px"></span> <span class="long-text"><a
+												href="FreeTrial.php" style="color: white;">Demo</a></span>
 										</button>
 									</div>
 									<div class="right-corder-container2">
 										<button class="right-corder-container-button2">
-											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="Contact.php"
-												style="color: white; ">Contact Us</a></span>
+											<span class="short-text2"><img
+												src="images/contactus_icon.jpeg" width="48px" height="48px">
+											</span> <span class="long-text2"><a href="Contact.php"
+												style="color: white;">Contact Us</a></span>
 										</button>
 									</div>
 									<div class="right-corder-container3">
 										<button class="right-corder-container-button3">
-											<span class="short-text3"><img src="images/threat.png" width="48px" height="48px"> </span> <span class="long-text3"><a
+											<span class="short-text3"><img src="images/threat.png"
+												width="48px" height="48px"> </span> <span class="long-text3"><a
 												href="Threat-assessment.php" style="color: white;">Threat
 													Assessment</a></span>
 										</button>
 									</div>
 								</div>
-								<!-- <h2 class="animate-box" data-animate-effect="fadeInUp">CISS - DEFENDER</h2> -->
 							</div>
 						</div>
 					</div>
@@ -151,47 +157,94 @@
 
 		<div class="gtco-section border-bottom">
 			<div class="gtco-container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 gtco-heading">
-						<h3>Cyber Security Architect</h3>
-						<p>The successful candidate will be a strong technologist with
-							pragmatic view and creative mind, and a natural collaborator with
-							security engineers, developers and senior management. The
-							Architect is expected to lead the innovative product development
-							through influence, communicate effectively through clarity of
-							thought and demonstrated understanding of business and technical
-							requirements.</p>
-						<h5>Qualifications:</h5>
-						<ul>
-							<li>BS in Computer Science or Engineering is mandatory with
-								in-depth domain knowledge in the Cyber Security with good oral
-								and written communications.</li>
-							<li>Strong Cloud Security implementation experience is
-								required for the Enterprise applications.</li>
-							<li>10+ years of strong hands-on experiences and technical
-								depth in one, or more technology areas, including Data security,
-								Infrastructure security, Endpoint/Platform security, Security
-								Analytics, or Application Security.</li>
-							<li>Programming experiences in one or more languages
-								(scripting/functional/imperative -- C/C++, Java, Python, Scala,
-								R, etc.)</li>
-							<li>Hands-on experience in building prototypes or full
-								products in Cloud-based environments</li>
-							<li>Experience with Design Pattern-type approaches to
-								development</li>
-							<li>Experience and thought leadership with infrastructure
-								designs for highly secure / trusted computation environments</li>
-							<li>Interest in and currency with a wide range of research
-								topics in security technology architectures, computer science
-								research, and emerging startups</li>
-							<li>Strength in both business and technical requirements
-								analysis</li>
-							<li>Strong written and verbal communication skills</li>
-						</ul>
+				<div class="row">
+				<div class="row row-pb-md">
+					<div class="col-md-6 animate-box">
+						<h3>Request for a Brochure here</h3>
+						<form method="post" action="brochureform-to-email.php">
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="name">Name</label> <p style="color: red;">* All fields are mandatory</p><input
+										type="text" id="name" name="name" class="form-control"
+										placeholder="Full Name" required>
+								</div>
+
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="email">Email</label> <input
+										type="text" id="email" name="email" class="form-control"
+										placeholder="Work Email Address" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="phone">Phone</label> <input
+										type="text" id="subject" name="phone" class="form-control"
+										placeholder="Phone Number" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="title">Title</label> <input
+										type="text" id="subject" name="title" class="form-control"
+										placeholder="Job Title" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label>Choose your level :</label> <select
+										name="level_job" required>
+										<option disabled selected value> -- select an option -- </option>
+										<option value="Entry Level">Entry Level</option>
+										<option value="Senior">Senior</option>
+										<option value="VPsVCs">VPs / VCs</option>
+										<option value="C Level">C Level</option>
+									</select>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="company">Company</label> <input
+										type="text" id="subject" name="company" class="form-control"
+										placeholder="Company Name" required>
+								</div>
+							</div>
+							
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="message">Message</label>
+									<textarea name="message" id="message" name="message" cols="30" rows="10"
+										class="form-control" placeholder="Message" required></textarea>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<input type="submit" value="Request for Brochure"
+									class="btn btn-primary btn-lg">
+							</div>
+
+						</form>
 					</div>
+					<!-- <div class="col-md-5 col-md-push-1 animate-box">
+
+						<div class="gtco-contact-info">
+							<h3>Upcoming Webinars</h3>
+							<ul>
+								<li class="address">Cyber Forza Webinar: The Intelligent Defense Against Cyber Attacks<br>12:00 PST. April 4, 2017</li>
+							</ul>
+						</div>
+					</div> -->
+				</div>
 				</div>
 			</div>
 		</div>
+
 
 		<div id="footer"></div>
 
@@ -226,3 +279,4 @@
 	</script>
 </body>
 </html>
+<!--  -->
