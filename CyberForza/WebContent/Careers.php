@@ -155,7 +155,8 @@
 			<div class="gtco-container">
 				<div class="row row-pb-md">
 					<div class="col-md-6 animate-box">
-						<h3>Come Join Our Team</h3>
+					<a href="https://www.ziprecruiter.com/jobs/cyber-forza-2831e921" id="jobs_widget_company_link" target="_blank">Job search at CYBER FORZA</a><script type="text/javascript" src="https://www.ziprecruiter.com/jobs-widget/v1/aa7eade9/all"></script><a href="https://www.ziprecruiter.com/" id="jobs_widget_link_split" target="_blank">Jobs Provided by ZipRecruiter</a>
+						<h3>You can also Join Our Team by submitting your Resume here</h3>
 						<form method="post" action="careerform-to-email.php">
 							<div class="row form-group">
 								<div class="col-md-12">
