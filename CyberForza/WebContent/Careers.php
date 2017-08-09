@@ -225,7 +225,7 @@
 						<div class="gtco-contact-info">
 							<h3>Why CyberForza?</h3>
 							<p>Welcome to CyberForza Careers, your source for outstanding
-								wireless and embedded jobs and high tech employment
+								cyber security and Artificial Intelligence jobs and high tech employment
 								opportunities.</p>
 							<p>At CyberForza, performance is paramount. We have ample
 								measurement systems and incentive schemes to recognize and
@@ -233,8 +233,8 @@
 								towards customer satisfaction will quickly be recognized.
 								Rewards, promotions and growth opportunities are based on
 								performance .We do not differentiate our people with any
-								criteria other than performance. Everyone in CyberForza – from
-								new recruit to the CEO – is treated the same.</p>
+								criteria other than performance. Everyone in CyberForza from
+								new recruit to the CEO is treated the same.</p>
 							<p>All employees receive the same workspace, amount of
 								employee leave time, benefits and travel allowances. Everyone
 								has the same dress code and the same entitlements. Criteria that
@@ -242,7 +242,7 @@
 							<p>To continue to be the best at inventing the world of
 								tomorrow, we need you and your ideas. Watch your aspirations
 								materialize in a company where opportunities abound for building
-								an amazing future. Be a part of the world's wireless innovations
+								an amazing future. Be a part of the world's cyber security innovations
 								and join CyberForza.</p>
 							<p>Send your resumes to info@cyberforza.com</p>
 							<hr>
