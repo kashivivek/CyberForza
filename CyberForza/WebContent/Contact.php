@@ -119,7 +119,8 @@
 
 		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
 			role="banner" style="background-image: url(images/contact.jpg);">
-			<div class="gtco-container">
+			<div class="gtco-container gtco-heading">
+			<h2 style="margin-top: 90px;" class="text-center">Contact us</h2>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
@@ -156,7 +157,6 @@
 			<div class="gtco-container">
 				<div class="row row-pb-md">
 					<div class="col-md-6 animate-box">
-						<h3>Contact Us</h3>
 						<form method="post" action="contactform-to-email.php">
 							<div class="row form-group">
 								<div class="col-md-12">
