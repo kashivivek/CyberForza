@@ -119,7 +119,7 @@
 				<div id="gtco-team" class="gtco-section">
 					<div class="gtco-container">
 					<div class="row animate-box">
-							<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+							<div class="col-md-8 col-md-offset-2 text-center gtco-heading" style="margin-top: 70px; margin-bottom: 0;">
 								<h2>Webinars</h2>
 							</div>
 						</div>
@@ -221,6 +221,25 @@
 							</div>
 
 						</form>
+					</div>
+					<div class="col-md-5 col-md-push-1 animate-box">
+
+						<div class="gtco-contact-info">
+							<h3>Upcoming Webinars</h3>
+							<strong>Topic:</strong> External/Outside Threat Identification Detection Protection using CISS Software<br>
+							<strong>Time:</strong> September 11th, 9:00 - 11:00 PST/12:00 - 13:00 EST
+							CISS Defender<br>
+							CISS - Cyber Intelligent Security Software
+							<hr>
+							<strong>Topic:</strong> Internal Threat Identification Detection Protection using CISS Software<br>
+							<strong>Time:</strong> October 11th, 9:00 - 11:00 PST/12:00 - 13:00 EST
+							CISS Interceptor<br>
+							CISS - Cyber Intelligent Security Software
+							<hr>
+							<strong>Topic:</strong> EDGE devices cyber security protection<br>
+							<strong>Time:</strong> October 25th, 9:00 - 11:00 PST/12:00 - 13:00 EST
+							CISS Defender Ransomware client<br>
+						</div>
 					</div>
 					<!-- <div class="col-md-5 col-md-push-1 animate-box">
 
