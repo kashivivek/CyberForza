@@ -100,6 +100,7 @@
 							<li class="active has-dropdown"><a>Services</a>
 								<ul class="dropdown">
 									<li class="active"><a href="Threat-assessment.php">Threat Assessment</a></li>
+									<li><a href="Support.html">Support</a></li>
 								</ul></li>
 							<li class="has-dropdown"><a href="Resources.html">Resources</a>
 								<ul class="dropdown">

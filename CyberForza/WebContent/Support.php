@@ -6,10 +6,10 @@
 -->
 <html>
 <head>
-<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Solutions & Services</title>
+<title>Support</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description"
 	content="Cyber Forza - Cybersecurity Integrated Software Solution." />
@@ -64,6 +64,7 @@
 	<div id="page">
 		<nav class="gtco-nav" role="navigation">
 			<div class="gtco-container">
+
 				<div class="row">
 					<div class="col-sm-4 col-xs-12">
 						<a href="index.html"><img src="images/logo.png"></a>
@@ -75,31 +76,31 @@
 					</div>
 					<div class="col-xs-8 text-right menu-1 mynav-changes">
 						<ul>
-							<li class="has-dropdown"><a href="About.html">Company</a>
+							<li class=" has-dropdown"><a href="About.html">Company</a>
 								<ul class="dropdown">
 									<li><a href="Team.html">Team</a></li>
 									<li><a href="Board-members.html">Board Members</a></li>
 									<li><a href="Contact.php">Contact Us</a></li>
 									<li><a href="Careers.php">Careers</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a href="Products.html">Products</a>
+							<li class=" has-dropdown"><a href="Products.html">Products</a>
 								<ul class="dropdown">
 									<li><a href="CissDefender.html">CISS DEFENDER</a></li>
 									<li><a href="CissInterceptor.html">CISS
 											INTERCEPTOR</a></li>
 									<li><a href="CissArmor.html">CISS ARMOR</a></li>
 								</ul></li>
-							<li class="active has-dropdown"><a href="Solutions.html">Solutions</a>
+							<li class="has-dropdown"><a href="Solutions.html">Solutions</a>
 								<ul class="dropdown">
 									<li><a href="Finance.html">Finance</a></li>
 									<li><a href="Healthcare.html">Healthcare</a></li>
-									<li class="active"><a href="PublicSafety.html">Public Safety</a></li>
+									<li><a href="PublicSafety.html">Public Safety</a></li>
 									<li><a href="Retail.html">Retail</a></li>
 									<li><a href="Education.html">Education</a></li>
 								</ul></li>
-							<li class="has-dropdown"><a>Services</a>
+							<li class="active has-dropdown"><a>Services</a>
 								<ul class="dropdown">
-									<li><a href="Threat-assessment.php">Threat Assessment</a></li><li><a href="Support.php">Support</a></li>
+									<li><a href="Threat-assessment.php">Threat Assessment</a></li><li class="active"><a href="Support.php">Support</a></li>
 								</ul></li>
 							<li class="has-dropdown"><a href="Resources.html">Resources</a>
 								<ul class="dropdown">
@@ -117,34 +118,28 @@
 		</nav>
 
 		<header id="gtco-header" class="gtco-cover gtco-cover-xs"
-			role="banner"
-			style="background-image: url(images/services-publicsafety1.jpg);">
-			<div class="gtco-container">
+			role="banner" style="background-image: url(images/contact.jpg);">
+			<div class="gtco-container gtco-heading">
 				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center"
-						style="vertical-align: middle;">
+					<div class="col-md-8 col-md-offset-2 text-center">
 						<div class="display-t">
 							<div class="display-tc">
-								<div class="sidebar_sticky">
+									<div class="sidebar_sticky">
 									<div class="right-corder-container">
 										<button class="right-corder-container-button">
-											<span class="short-text"><img src="images/demo.png"
-												width="48px" height="48px"></span> <span class="long-text"><a
-												href="FreeTrial.php" style="color: white;">Demo</a></span>
+											<span class="short-text"><img src="images/demo.png" width="48px" height="48px"></span> <span class="long-text"><a href="FreeTrial.php"
+												style="color: white;">Demo</a></span>
 										</button>
 									</div>
 									<div class="right-corder-container2">
 										<button class="right-corder-container-button2">
-											<span class="short-text2"><img
-												src="images/contactus_icon.jpeg" width="48px" height="48px">
-											</span> <span class="long-text2"><a href="Contact.php"
-												style="color: white;">Contact Us</a></span>
+											<span class="short-text2"><img src="images/contactus_icon.jpeg" width="48px" height="48px"> </span> <span class="long-text2"><a href="Contact.php"
+												style="color: white; ">Contact Us</a></span>
 										</button>
 									</div>
 									<div class="right-corder-container3">
 										<button class="right-corder-container-button3">
-											<span class="short-text3"><img src="images/threat.png"
-												width="48px" height="48px"> </span> <span class="long-text3"><a
+											<span class="short-text3"><img src="images/threat.png" width="48px" height="48px"> </span> <span class="long-text3"><a
 												href="Threat-assessment.php" style="color: white;">Threat
 													Assessment</a></span>
 										</button>
@@ -157,57 +152,107 @@
 			</div>
 		</header>
 
-		<div class="gtco-section border-bottom">
-			<div class="gtco-container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2  gtco-heading">
-					<h2 class="animate-box text-center" data-animate-effect="fadeInUp">Public Safety</h2>
-						<p>Public safety communications systems are becoming more
-							integrated with advanced technologies than ever before. These
-							developments bring both the promise of new capabilities, and the
-							inherent issues of cyber security.</p>
-						<p>Cyber Forza has the only solutions that encompasses all
-							areas of a threat both internally and externally.</p>
-						<p>As agencies start utilizing Internet Protocol (IP)-based
-							networks and more mobile platforms, it becomes increasingly
-							important to take steps to protect sensitive operations and
-							confidential data. Additionally, as agencies move toward IP-based
-							systems, body cameras, videos, and remote terminals. To address
-							this, Cyber Forza has commissioned penetration testing performed
-							by 3rd party companies who were unsuccessful in penetrating the
-							Cyber Forza suite of products. Cyber Forza goes beyond providing
-							an out of the box solution you the ability to customize your
-							solution by allowing the ability to customize the solution
-							without impacting your environment or workflow.</p>
-						<h3>Challenges</h3>
-						<p>One of the biggest concerns for agencies is data protection
-							and storage. As data grows and the need for compliance, and
-							security are inevitable. The use of Cyber Forza protects at all
-							levels of your agencies and gives the advantage over other
-							solutions by using one application to manage all aspects of your
-							security infrastructure. This way, you never have to work with
-							multiple vendors any longer to address your security needs.</p>
-						<div align="center">
-							<img alt="Service_Banking"
-								src="images/services-publicsafety2.jpg"
-								style="max-width: 100%; height: auto;">
+		<div class="gtco-section">
+			<div class="gtco-container gtco-heading" style="">
+			<h2 class="text-center">Support</h2>
+				<div class="row row-pb-md">
+					<div class="col-md-6 animate-box">
+						<form method="post" action="contactform-to-email.php">
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="name">Name</label> <p style="color: red;">* All fields are mandatory</p><input
+										type="text" id="name" name="name" class="form-control"
+										placeholder="Your Full Name" required>
+								</div>
+
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="email">Email</label> <input
+										type="text" id="email" name="email" class="form-control"
+										placeholder="Your Email Address" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="phone">Phone</label> <input
+										type="text" id="subject" name="phone" class="form-control"
+										placeholder="Your Phone Number" required>
+								</div>
+							</div>
+
+							<div class="row form-group">
+								<div class="col-md-12">
+									<label class="sr-only" for="message">Message</label>
+									<textarea name="message" id="message" name="message" cols="30" rows="10"
+										class="form-control" placeholder="Write us something" required></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="submit" value="Send Message"
+									class="btn btn-primary btn-lg">
+							</div>
+
+						</form>
+					</div>
+					<div class="col-md-5 col-md-push-1 animate-box">
+
+						<div class="gtco-contact-info">
+							<h3>Contact Information</h3>
+							<ul>
+								<li class="address">2378A Walsh Ave, <br> Santa Clara,
+									CA 95051
+								</li>
+								<li class="phone"><a href="tel://14087271560"> +1 408 727 1560</a></li>
+								<li class="email"><a href="mailto:info@cyberforza.com">info@cyberforza.com</a></li>
+							</ul>
 						</div>
-						<p>
-						<p>Additionally, as agencies move towards body cameras,
-							videos, and remote terminals it is critical to secure data at
-							rest, transit and streaming. Cyber Forza is a Cyber Intelligent
-							Security Software (CISS) solution, that incorporates artificial
-							intelligence to recognize behavioral patterns, rules, rights,
-							departments, users, customized workflows, tasks, responses,
-							action, and analytics to help communicate your threats and take
-							action.</p>
+
+
 					</div>
 				</div>
 			</div>
+
 		</div>
+	</div>
 
-
-		<div id="footer"></div>
+	<!-- <div id="gtco-subscribe">
+		<div class="gtco-container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Subscribe</h2>
+					<p>Be the first to know about the news and technology updates.</p>
+				</div>
+			</div>
+			<div class="row animate-box">
+				<div class="col-md-12">
+					<form class="form-inline">
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label> <input
+									type="email" class="form-control" id="email"
+									placeholder="Your Email">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="form-group">
+								<label for="name" class="sr-only">Name</label> <input
+									type="text" class="form-control" id="name"
+									placeholder="Your Name">
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+ -->
+	<div id="footer"></div>
 
 	</div>
 
@@ -238,7 +283,6 @@
 			$("#footer").load("footer.html");
 		});
 	</script>
-
 </body>
 </html>
 
